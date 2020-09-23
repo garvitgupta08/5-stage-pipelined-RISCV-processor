@@ -1,0 +1,682 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21756 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 563.445 ; gain = 184.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'instr_mem' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:21]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'memfile.dat'; please make sure the file is added to project and has read permission, ignoring [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:29]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+WARNING: [Synth 8-3848] Net imem in module/entity instr_mem does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'instr_mem' (1#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/instr_mem.v:21]
+WARNING: [Synth 8-689] width (32) of port connection 'ra' does not match port width (6) of module 'instr_mem' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/top.v:28]
+INFO: [Synth 8-6157] synthesizing module 'mips_proc' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mips_proc.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'main_dec' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/main_dec.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'main_dec' (2#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/main_dec.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu_dec' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/alu_dec.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu_dec' (3#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/alu_dec.v:22]
+INFO: [Synth 8-6157] synthesizing module 'floprc' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:23]
+	Parameter width bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'floprc' (4#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+	Parameter width bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (5#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+	Parameter width bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized0' (5#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (6#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:21]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/hazard.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (7#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/hazard.v:21]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux2.v:22]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (8#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux2.v:22]
+INFO: [Synth 8-6157] synthesizing module 'flopenr' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopenr.v:21]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopenr' (9#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopenr.v:21]
+INFO: [Synth 8-6157] synthesizing module 'adder' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/adder.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (10#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/adder.v:21]
+INFO: [Synth 8-6157] synthesizing module 'flopenrc' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopenrc.v:23]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopenrc' (11#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopenrc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/register_file.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (12#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/register_file.v:21]
+INFO: [Synth 8-6157] synthesizing module 'signext' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/signext.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (13#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/signext.v:21]
+INFO: [Synth 8-6157] synthesizing module 'mux3' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux3.v:21]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux3' (14#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux3.v:21]
+INFO: [Synth 8-6157] synthesizing module 'eqcmp' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/eqcmp.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'eqcmp' (15#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/eqcmp.v:22]
+INFO: [Synth 8-6157] synthesizing module 'shiftleft2' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/shiftleft2.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'shiftleft2' (16#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/shiftleft2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'floprc__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:23]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'floprc__parameterized0' (16#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'q' does not match port width (32) of module 'floprc__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:91]
+WARNING: [Synth 8-689] width (5) of port connection 'q' does not match port width (32) of module 'floprc__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:92]
+WARNING: [Synth 8-689] width (5) of port connection 'q' does not match port width (32) of module 'floprc__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:93]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux2.v:22]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (16#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mux2.v:22]
+WARNING: [Synth 8-689] width (32) of port connection 'd0' does not match port width (5) of module 'mux2__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:100]
+WARNING: [Synth 8-689] width (32) of port connection 'd1' does not match port width (5) of module 'mux2__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:100]
+WARNING: [Synth 8-689] width (32) of port connection 'y' does not match port width (5) of module 'mux2__parameterized0' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:100]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (17#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized1' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized1' (17#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized2' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized2' (17#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/flopr.v:23]
+WARNING: [Synth 8-3848] Net srcbE in module/entity Datapath does not have driver. [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (18#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/Datapath.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'mips_proc' (19#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/mips_proc.v:22]
+INFO: [Synth 8-6157] synthesizing module 'data_mem' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/data_mem.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'data_mem' (20#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/data_mem.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top' (21#1) [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/top.v:21]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[11]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[10]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[9]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[8]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[1]
+WARNING: [Synth 8-3331] design data_mem has unconnected port addr[0]
+WARNING: [Synth 8-3331] design shiftleft2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design shiftleft2 has unconnected port a[30]
+WARNING: [Synth 8-3331] design shiftleft2 has unconnected port a[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 626.492 ; gain = 247.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 626.492 ; gain = 247.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 626.492 ; gain = 247.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/alu.v:31]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 626.492 ; gain = 247.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 14    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 13    
+	   4 Input     32 Bit        Muxes := 4     
+	   5 Input     32 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main_dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      8 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+Module alu_dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+Module floprc 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module flopr 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module flopr__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module hazard 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 4     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module flopenr 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module flopenrc 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module register_file 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module mux3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module floprc__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 2     
+Module flopr__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module flopr__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[7]' (FDCE) to 'RISCV/d/f2/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[8]' (FDCE) to 'RISCV/d/f2/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[9]' (FDCE) to 'RISCV/d/f2/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[10]' (FDCE) to 'RISCV/d/f2/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[11]' (FDCE) to 'RISCV/d/f2/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[30]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[13]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[12]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[14]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[5]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[4]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[6]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[23]' (FDCE) to 'RISCV/d/f2/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[24]' (FDCE) to 'RISCV/d/f2/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[20]' (FDCE) to 'RISCV/d/f2/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[21]' (FDCE) to 'RISCV/d/f2/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[22]' (FDCE) to 'RISCV/d/f2/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[18]' (FDCE) to 'RISCV/d/f2/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[19]' (FDCE) to 'RISCV/d/f2/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[15]' (FDCE) to 'RISCV/d/f2/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/f2/q_reg[16]' (FDCE) to 'RISCV/d/f2/q_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RISCV/d/f2/q_reg[17] )
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[31]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[30]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[29]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[28]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[27]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[26]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[25]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[24]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[23]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[22]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[21]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[20]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[19]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[18]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[17]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[16]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[15]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[14]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[13]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r4E/q_reg[12]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[31]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[30]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[29]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[28]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[27]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[26]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[25]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[24]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[23]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[22]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[21]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[20]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[19]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[18]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[17]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[16]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[15]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[14]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[13]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[12]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[11]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[10]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[9]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[8]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[7]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[6]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r7E/q_reg[5]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[5]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[6]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[7]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[8]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[9]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[10]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[11]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[12]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[13]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[14]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[15]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[16]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[17]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[18]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[19]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[20]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[21]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[22]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[23]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[24]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[25]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[26]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[27]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[28]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[29]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[30]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r6E/q_reg[31]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r5E/q_reg[5]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r5E/q_reg[6]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r5E/q_reg[7]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r5E/q_reg[8]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RISCV/d/r5E/q_reg[9]' (FDC) to 'RISCV/c/regE/q_reg[3]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RISCV/c/regE/q_reg[3] )
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[31]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[30]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[29]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[28]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[27]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[26]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[25]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[24]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[23]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[22]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[21]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[20]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[19]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[18]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[17]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[16]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[15]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[14]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[13]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[12]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[11]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[10]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[9]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[8]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[7]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[6]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[5]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[4]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[3]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[2]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[1]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'RISCV/d/r1E/q_reg[0]/Q' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/vivado_projects/RISCV_Proc/RISCV_Proc.srcs/sources_1/new/floprc.v:31]
+WARNING: [Synth 8-3332] Sequential element (i_0) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |    65|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    65|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 97 critical warnings and 102 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 766.844 ; gain = 388.016
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 872.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+163 Infos, 102 Warnings, 97 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 872.449 ; gain = 517.469
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 872.449 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_projects/RISCV_Proc/RISCV_Proc.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 29 23:45:30 2020...
