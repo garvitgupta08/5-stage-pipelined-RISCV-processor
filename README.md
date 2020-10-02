@@ -1,5 +1,5 @@
 # 5 stage pipelined RISCV processor
-This a prototype version of RV32I set of RISCV where only a particular set of instructions are implemented. More details related to RISC V can be found on their instruction manual available at the site www.riscv.org
+This a prototype version of RV32I set of RISCV where only a particular set of instructions are implemented. More details related to RISC V can be found on their instruction manual available at the site www.riscv.org.
  
 # Features
 1. It has 5 pipeline stages i.e. fetch phase, decode phase, execute phase, memory and writeback phase.
@@ -15,4 +15,8 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
 8. Separate unit- Hazard Unit, apart from controller unit handles all the stalling and forwarding operations.
 
 # circuit Diagram
-< img src ="https://github.com/garvitgupta08/5-stage-pipelined-RISCV-processor/blob/master/circuit.PNG" width = "500" height = "300" />
+
+<img src="https://github.com/garvitgupta08/5-stage-pipelined-RISCV-processor/blob/master/circuit.PNG" width="700" height="500" />
+
+# An Overview
+Brief explanation of the modules can be found here https://docs.google.com/presentation/d/1XLTiSCzBOmXFytmNbCX9RxN0Lh-PKl5T5riLXr2KlQ0/edit?usp=sharing
