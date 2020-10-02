@@ -15,4 +15,4 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
 8. Separate unit- Hazard Unit, apart from controller unit handles all the stalling and forwarding operations.
 
 # circuit Diagram
-< img src ="https://github.com/garvitgupta08/5-stage-pipelined-RISCV-processor/blob/master/circuit.PNG" width = "500" height = "300">
+< img src ="https://github.com/garvitgupta08/5-stage-pipelined-RISCV-processor/blob/master/circuit.PNG" width = "500" height = "300" />
