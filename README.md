@@ -4,7 +4,7 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
 # Features
 1. It has 5 pipeline stages i.e. fetch phase, decode phase, execute phase, memory and writeback phase.
 2. Instructions which are implemented are:
-               a. Arithmetic and logical instructions: AND, OR, ADD, SUB
+               a. Arithmetic and logical instructions: AND, OR, ADD, SUB, ADDI
                b. Control flow instructions: BEQ
                c. Load and store instructions: LW, SW
 3. For BEQ instruction, equal to comparator has been moved to decode phase so that only 1 instructions needs to be flushed if branch is taken instead of two.
