@@ -3,7 +3,7 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
  
 # Features
 1. It has 5 pipeline stages i.e. fetch phase, decode phase, execute phase, memory and writeback phase.
-2. Instructions which are implemented are:
+2. Instructions which are implemented are: \n
                a. Arithmetic and logical instructions: AND, OR, ADD, SUB, ADDI
                b. Control flow instructions: BEQ
                c. Load and store instructions: LW, SW
@@ -14,7 +14,7 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
 7. Forwarding of data is there to execute and decode phase from memory and writeback phase.
 8. Separate unit- Hazard Unit, apart from controller unit handles all the stalling and forwarding operations.
 
-# circuit Diagram
+# Circuit Diagram
 
 <img src="https://github.com/garvitgupta08/5-stage-pipelined-RISCV-processor/blob/master/circuit.PNG" width="700" height="500" />
 
