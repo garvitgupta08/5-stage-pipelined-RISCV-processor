@@ -11,7 +11,7 @@ This a prototype version of RV32I set of RISCV where only a particular set of in
 4. Since outcome of branch instructions gets decided in decode phase, the processor always fetches the subsequent instructions and if branch is taken it flushes this instruction and takes the next instruction at the appropriate address.
 5. Data and instructions memory are separate.
 6. Instruction memory is read only memory and for the purpose of testing it we already load it with the instructions during initialization.
-7. Forwarding if data is there to execute and decode phase from memory and writeback phase.
+7. Forwarding of data is there to execute and decode phase from memory and writeback phase.
 8. Separate unit- Hazard Unit, apart from controller unit handles all the stalling and forwarding operations.
 
 # circuit Diagram
